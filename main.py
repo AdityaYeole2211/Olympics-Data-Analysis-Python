@@ -12,7 +12,7 @@ region_df = pd.read_csv('./olympic-history/noc_regions.csv')
 
 df = preprocessor.preprocess(df, region_df)
 
-st.sidebar.title("OlympicStatz")
+st.sidebar.title("-OlympicStatz- ")
 # st.sidebar.image('https://e7.pngegg.com/pngimages/1020/402/png-clipart-2024-summer-olympics-brand-circle-area-olympic-rings-olympics-logo-text-sport.png')
 st.sidebar.image('./images/olympics 1.png')
 user_menu = st.sidebar.radio(
